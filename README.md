@@ -11,6 +11,7 @@ This repository presents the Design of 2:1 MUX  implemented using synopsis custo
 - - [Circuit](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#circuit)
 - - [Idle Mode](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#idle-mode)
 - - [Waveform](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#waveform)
+- [Netlist](https://github.com/Bekalsupritha/2-1-MUX/blob/main/Netlist)
 - [Author](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#author)
 - [Acknowledgement](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#acknowledgement)
 - [References](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#references)

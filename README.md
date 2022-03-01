@@ -1,5 +1,19 @@
 # 2:1 MUX
 This repository presents the Design of 2:1 MUX  implemented using synopsis custom compiler on 28nm technology
+# Table of Content
+- [Abstract](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#abstract)
+- [Tools Used](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#tools-uesd)
+- [Circuit Details](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#circuit-details)
+- [Reference Circuit](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#reference-circuit)
+- [Reference Waveform](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#reference-waveform)
+- [Truth Table](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#truth-table)
+- [Simulation Using Synopsis](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#simulation-using-synopsis)
+- - [Circuit](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#circuit)
+- - [Idle Mode](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#idle-mode)
+- - [Waveform](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#waveform)
+- [Author](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#author)
+- [Acknowledgement](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#acknowledgement)
+- [References](https://github.com/Bekalsupritha/2-1-MUX/edit/main/README.md#references)
 # Abstract
 This paper presents a analysis of 2:1 MUX using CMOS logic. One of the important elements in digital circuit is a multiplexer or data selector for processing multiple inputs with a single output.Currently multiplexer have become a universal logic element used to design any digital combinational logic circuits/system in the IC’s. A multiplexer is a building block in communication networking. It is a combinational circuit that converts serial data into parallel data. 2:1 MUX has 2n input lines, ‘n’ select lines and single output line. According to the binary value of the select line the particular input is selected and passed to the output. In this paper, multiplexer using CMOS logic are analyzed in performance point of view.
 # Tools Uesd
@@ -12,6 +26,8 @@ Multiplexer is a universal combinational circuit which can be used to implement 
 ![cmos ckt](https://user-images.githubusercontent.com/100553715/156155177-1a7b5055-28e0-4833-aa45-3872a5e2f4d4.jpg)
 # Reference Waveform
 ![cmos](https://user-images.githubusercontent.com/100553715/156155229-0b1d02e7-ce84-4186-bedc-d49f2be2cf39.jpg)
+# Truth Table
+![truth table](https://user-images.githubusercontent.com/100553715/156176766-ff97507b-155d-47ce-bf14-53dd027bdf69.png)
 # Simulation using Synopsis
 >## Circuit
 ![circuit](https://user-images.githubusercontent.com/100553715/156155400-05b3b9c2-2afa-4dca-bd9c-73b25175a6fd.png)

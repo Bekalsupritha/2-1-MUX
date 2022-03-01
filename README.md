@@ -15,3 +15,10 @@ Multiplexer is a universal combinational circuit which can be used to implement 
 ![Idle mode](https://user-images.githubusercontent.com/100553715/156155442-c0880c07-a8d1-4f83-80e2-4b23339e1b7b.png)
 >## Waveform
 ![waveform](https://user-images.githubusercontent.com/100553715/156157091-88f31845-3dac-42a8-ba49-661b917511c3.png)
+# Author
+Supritha bekal,Mangalore Institute Of Technology and Engineering
+# References
+1. 1.	International Journal of Trendy Research in Engineering and Technology.https://www.academia.edu/55583852/Investigation_of_MUX_Using_Various_CMOS_Circuit_Style_under_Nanometer_Technology
+2. 2.	https://youtu.be/1l7KEYFRFzs
+3. 3.	Journal of Advancements in Robotics.https://www.researchgate.net/publication/349211497_21_Multiplexer_Using_Different_Design_Styles_Comparative_Analysis
+

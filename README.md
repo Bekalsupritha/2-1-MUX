@@ -29,7 +29,7 @@ Supritha bekal,Mangalore Institute Of Technology and Engineering
 5. Chinmay Panda, IIT Hyderabad
 6. Sameer Durgoji, NIT Karnataka
 # References
-1.International Journal of Trendy Research in Engineering and Technology.https://www.academia.edu/55583852/Investigation_of_MUX_Using_Various_CMOS_Circuit_Style_under_Nanometer_Technology
-2.https://youtu.be/1l7KEYFRFzs
-3.Journal of Advancements in Robotics.https://www.researchgate.net/publication/349211497_21_Multiplexer_Using_Different_Design_Styles_Comparative_Analysis
+1. International Journal of Trendy Research in Engineering and Technology.https://www.academia.edu/55583852/Investigation_of_MUX_Using_Various_CMOS_Circuit_Style_under_Nanometer_Technology
+2. https://youtu.be/1l7KEYFRFzs
+3. Journal of Advancements in Robotics.https://www.researchgate.net/publication/349211497_21_Multiplexer_Using_Different_Design_Styles_Comparative_Analysis
 

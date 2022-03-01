@@ -1,4 +1,4 @@
-# 2-1-MUX
+# 2:1 MUX
 This repository presents the Design of 2:1 MUX  implemented using synopsis custom compiler on 28nm technology
 # Abstract
 This paper presents a analysis of 2:1 MUX using CMOS logic. One of the important elements in digital circuit is a multiplexer or data selector for processing multiple inputs with a single output.Currently multiplexer have become a universal logic element used to design any digital combinational logic circuits/system in the IC’s. A multiplexer is a building block in communication networking. It is a combinational circuit that converts serial data into parallel data. 2:1 MUX has 2n input lines, ‘n’ select lines and single output line. According to the binary value of the select line the particular input is selected and passed to the output. In this paper, multiplexer using CMOS logic are analyzed in performance point of view.
@@ -18,7 +18,7 @@ Multiplexer is a universal combinational circuit which can be used to implement 
 # Author
 Supritha bekal,Mangalore Institute Of Technology and Engineering
 # References
-1. 1.	International Journal of Trendy Research in Engineering and Technology.https://www.academia.edu/55583852/Investigation_of_MUX_Using_Various_CMOS_Circuit_Style_under_Nanometer_Technology
-2. 2.	https://youtu.be/1l7KEYFRFzs
-3. 3.	Journal of Advancements in Robotics.https://www.researchgate.net/publication/349211497_21_Multiplexer_Using_Different_Design_Styles_Comparative_Analysis
+1.International Journal of Trendy Research in Engineering and Technology.https://www.academia.edu/55583852/Investigation_of_MUX_Using_Various_CMOS_Circuit_Style_under_Nanometer_Technology
+2.https://youtu.be/1l7KEYFRFzs
+3.Journal of Advancements in Robotics.https://www.researchgate.net/publication/349211497_21_Multiplexer_Using_Different_Design_Styles_Comparative_Analysis
 

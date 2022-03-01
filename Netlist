@@ -1,0 +1,74 @@
+*  Generated for: PrimeSim
+*  Design library name: mux
+*  Design cell name: using_mux_symbol
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Tue Mar  1 10:57:22 2022
+
+.global gnd!
+********************************************************************************
+* Library          : mux
+* Cell             : mux_ckt
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt mux_ckt inputa inputb output s s-bar
+xm28 output net103 net112 net112 p105 w=0.1u l=0.03u nf=1 m=1
+xm9 net35 s net103 net106 p105 w=0.1u l=0.03u nf=1 m=1
+xm2 net35 inputa net106 net106 p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net106 s-bar net35 net106 p105 w=0.1u l=0.03u nf=1 m=1
+xm5 net103 inputb net35 net106 p105 w=0.1u l=0.03u nf=1 m=1
+xm29 output net103 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm17 net103 inputa net66 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm18 net124 inputb net103 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm19 net66 s-bar gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm24 gnd! s net124 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+v32 net106 gnd! dc=1.5
+v33 net112 gnd! dc=1.5
+.ends mux_ckt
+
+********************************************************************************
+* Library          : mux
+* Cell             : using_mux_symbol
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi1 net16 net18 net25 net20 net22 mux_ckt
+v6 net22 gnd! dc=1.5 pulse ( 0 1.5 5u 0.1p 0.1p 05u 010u )
+v5 net20 gnd! dc=1.5 pulse ( 0 01.5 0 0.1p 0.1p 05u 010u )
+v3 net16 gnd! dc=1.5 pulse ( 0 01.5 0 0.1p 0.1p 05u 010u )
+v4 net18 gnd! dc=1.5 pulse ( 0 01.5 1.5u 0.1p 0.1p 05u 010u )
+c12 net25 gnd! c=1p
+
+
+
+
+
+
+
+
+.tran '1u' '20u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(net16) v(net18) v(net20) v(net22) v(net25)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
